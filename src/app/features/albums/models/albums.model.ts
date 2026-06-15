@@ -1,3 +1,4 @@
-export interface Albums{
-
+export interface Albums {
+    id: number;
+    title: string;
 }

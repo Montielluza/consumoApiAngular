@@ -1,1 +1,5 @@
-<p>albums-list works!</p>
+<div class = " album-grid">
+    <app-albums-card *ngFor = "let albumsElement of albums"
+        [albums]="albumsElement">
+    </app-albums-card>
+</div>
